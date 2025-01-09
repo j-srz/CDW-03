@@ -10,6 +10,7 @@
 .anuncio {
   background: lighten($color: v.$gris, $amount: 5);
   border: 1px solid darken($color: v.$gris, $amount: 10);
+  margin-bottom: 2rem;
 
 
   .contenido-anuncio {

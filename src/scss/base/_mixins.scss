@@ -35,7 +35,10 @@
     margin-top: calc(v.$separacion /2);
     display: $display;
 
+    border: none;
+
     &:hover {
         background: color.scale($bgColor, $lightness: -10%);
+        cursor: pointer;
     }
 }

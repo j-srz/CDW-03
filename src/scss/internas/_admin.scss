@@ -17,3 +17,28 @@
         background-color: v.$verde;
     }
 }
+
+
+table.propiedades {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead {
+        background: v.$verde;
+
+        th {
+            color: v.$blanco;
+            padding: 2rem;
+        }
+    }
+
+    .imagen-tabla {
+        width: 10rem;
+    }
+} 
+
+
+.imagen-small {
+    width: 10rem;
+}
